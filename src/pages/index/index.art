@@ -214,7 +214,7 @@
     </header>
     <!-- carousel -->
     <section class="banner" id="banner">
-      <div class="carousel">
+      <!-- <div class="carousel">
         <ul id="carousel_list">
           <li>
             <img src="images/banner_01.jpg" alt="" />
@@ -241,12 +241,16 @@
             <li></li>
           </ol>
         </div>
-      </div>
+      </div> -->
+      {{include './components/carousel/carousel.art'}}
       <div class="center-wrap">
-        <div class="btns">
+        <!-- <div class="btns">
           <a id="leftbtn" href="javascript:;" class="btn leftbtn"></a>
           <a id="rightbtn" href="javascript:;" class="btn rightbtn"></a>
-        </div>
+        </div> -->
+        {{include './components/carousel/btn.art'}}
+
+        <!-- menu -->
         <div class="v-menu-box" id="v-menu-box">
           <nav class="v-menu" id="v-menu">
             <ul>
