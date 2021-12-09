@@ -242,13 +242,16 @@
           </ol>
         </div>
       </div> -->
-      {{include './components/carousel/carousel.art'}}
+      <div id="slider-layout">
+        <% include('../../components/loading/loading.art', { inline: false,
+        text:'^_^ 正在拼命为您加载……' }) %>
+      </div>
       <div class="center-wrap">
         <!-- <div class="btns">
           <a id="leftbtn" href="javascript:;" class="btn leftbtn"></a>
           <a id="rightbtn" href="javascript:;" class="btn rightbtn"></a>
         </div> -->
-        {{include './components/carousel/btn.art'}}
+        {{include './components/slider/btn.art'}}
 
         <!-- menu -->
         <div class="v-menu-box" id="v-menu-box">
@@ -808,7 +811,7 @@
     <!-- jjzyx -->
     <section class="layer layer-common-style jjzyx">
       <div class="center-wrap">
-        <div class="hd">
+        <!-- <div class="hd">
           <h3>机酒自由行</h3>
           <div class="slogan">挑选全球机票、酒店、邮轮等旅行产品</div>
           <div class="tabbar">
@@ -928,7 +931,8 @@
               </a>
             </li>
           </ul>
-        </div>
+        </div> -->
+        {{include './components/jjzyx/jjzyx.art'}}
       </div>
     </section>
     <!-- ddwl -->
